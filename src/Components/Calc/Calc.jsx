@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Calc.css'; // Ensure this is the correct path to your CSS file
+import './Calc.css'; 
 
 const Calc = () => {
     const [displayValue, setDisplayValue] = useState('');
