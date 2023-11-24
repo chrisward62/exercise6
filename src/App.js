@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './Components/Dashboard/Dashboard';
-import TTT from './Components/TTT/TTT'; // Make sure the path is correct
-import Calculator from './Components/Calculator/Calculator'; // Make sure the path is correct
+import TTT from './Components/TTT/TTT'; 
+import Calculator from './Components/Calculator/Calculator'; 
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/TTT" element={<TTT />} />
         <Route path="/Calculator" element={<Calculator />} />
-        {/* ... other routes */}
+        
       </Routes>
     </Router>
   );

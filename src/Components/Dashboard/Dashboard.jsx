@@ -7,7 +7,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard-container">
             <TopNavigation /> {/* Updated component name */}
-            <h1>Dashboard</h1>
+            <h1>Tic-Tac-Toe Calculator Home Page</h1>
             {/* The rest of your dashboard content will go here */}
         </div>
     );

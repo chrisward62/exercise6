@@ -1,5 +1,6 @@
 import React from 'react';
-import TopNavigation from '../TopNavigation/TopNavigation'; // Updated path
+import TopNavigation from '../TopNavigation/TopNavigation'; 
+import Game from '../Game/Game';
 import './TTT.css';
 
 const TTT = () => {
@@ -8,7 +9,7 @@ const TTT = () => {
         <div className="TTT-container">
             <TopNavigation /> {/* Updated component name */}
             <h1>Tic-Tac-Toe</h1>
-            {/* The rest of your dashboard content will go here */}
+            <Game />
         </div>
     );
 }

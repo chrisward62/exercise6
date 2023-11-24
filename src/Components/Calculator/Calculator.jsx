@@ -1,6 +1,8 @@
 import React from 'react';
 import TopNavigation from '../TopNavigation/TopNavigation'; // Updated path
 import './Calculator.css';
+import Calc from '../Calc/Calc';
+
 
 const Calculator = () => {
     console.log("Calculator is mounting");
@@ -8,7 +10,7 @@ const Calculator = () => {
         <div className="calculator-container">
             <TopNavigation /> {/* Updated component name */}
             <h1>Calculator</h1>
-            {/* The rest of your dashboard content will go here */}
+            <Calc />
         </div>
     );
 }
